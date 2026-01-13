@@ -5,14 +5,14 @@ import java.util.stream.IntStream;
 
 public class Solution2 {
     public int[] solution(int num, int total) {
-//       int[] answer=new int[num];
-//       int start = (total - (num * (num - 1) / 2)) / num;
+//        int[] answer=new int[num];
+//        int start=(total - (num*(num-1)/2))/num;
 //
-//       for(int i=0; i<num; i++){
-//            answer[i]=start+i;
-//       }
+//        for(int i=0; i<num; i++){
+//            answer[i]=start++;
+//        }
 //
-//       return answer;
+//        return answer;
 
         // Stream API
         int start = (total - (num * (num - 1) / 2)) / num;

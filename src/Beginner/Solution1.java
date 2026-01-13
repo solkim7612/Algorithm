@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class Solution1 {
     public int solution(String[] babbling) {
-//        String[] word = {"aya", "ye", "woo", "ma"};
-//        int answer = 0;
-
-//        for (String string : babbling) {
-//            for (String s : word) {
-//                string=string.replace(s," ");
+//        String[] can={"aya", "ye", "woo", "ma"};
+//        int count=0;
+//
+//        for(String b:babbling){
+//            for(String c:can){
+//                b=b.replace(c, " ");
 //            }
-//            if(string.trim().isEmpty()) answer++;
+//            if(b.trim().isEmpty()) count++;
 //        }
-
-//        return answer;
+//
+//        return count;
 
         // Stream API
         return (int) Arrays.stream(babbling)
-                .map(n->n.replace("aya", " ")
+                .map(n -> n.replace("aya", " ")
                         .replace("ye", " ")
                         .replace("woo", " ")
                         .replace("ma", " "))
