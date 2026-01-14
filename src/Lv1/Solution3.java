@@ -1,35 +1,27 @@
 package Lv1;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 public class Solution3 {
-    public String[] solution(String my_str, int n) {
-//        String[] answer=new String[
-//                my_str.length()%n==0? my_str.length()/n: (my_str.length()/n)+1
-//                ];
-//
-//        for(int i=0; i<answer.length; i++){
-//            if(i==answer.length-1){
-//                answer[i]=my_str.substring(i*n);
-//            } else {
-//                answer[i]=my_str.substring(i*n, (i+1)*n);
-//            }
-//        }
-//
-//        return answer;
+    public String solution(String code) {
+        String ret="";
+        String[] c=code.split("");
+        int mode=0;
 
-        // stream API
-        return IntStream.iterate(0, i -> i < my_str.length(), i -> i + n)
-                .mapToObj(i -> my_str.substring(i, Math.min(i + n, my_str.length())))
-                .toArray(String[]::new);
+        for(int i=0; i<c.length; i++) {
+            if(c[i].equals("1")){
+                mode=(mode==0)? 1:0;
+                continue;
+            }
+            if(i%2==mode) ret+=c[i];
+        }
+
+        return ret.isEmpty()? "EMPTY":ret;
     }
 
     public static void main(String[] args) {
-        String my_str = "abc1Addfggg4556b";
-        int n = 6;
         Solution3 solution3 = new Solution3();
 
-        System.out.println(Arrays.toString(solution3.solution(my_str, n)));
+        String code = "abc1abc1abc";
+
+        System.out.println(solution3.solution(code));
     }
 }

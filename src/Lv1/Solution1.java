@@ -1,36 +1,18 @@
 package Lv1;
 
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Solution1 {
-    public int solution(String[] babbling) {
-//        String[] can={"aya", "ye", "woo", "ma"};
-//        int count=0;
-//
-//        for(String b:babbling){
-//            for(String c:can){
-//                b=b.replace(c, " ");
-//            }
-//            if(b.trim().isEmpty()) count++;
-//        }
-//
-//        return count;
-
-        // Stream API
-        return (int) Arrays.stream(babbling)
-                .map(n -> n.replace("aya", " ")
-                        .replace("ye", " ")
-                        .replace("woo", " ")
-                        .replace("ma", " "))
-                .map(String::trim)
-                .filter(String::isEmpty)
-                .count();
-    }
 
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
-        String[] babbling = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
-        System.out.println(solution1.solution(babbling));
-    }
+        Scanner scanner = new Scanner(System.in);
 
+        String string = scanner.nextLine();
+        String answer = "";
+
+        for (int i = 0; i < string.length(); i++) {
+            answer += (string.charAt(i) > 96) ? Character.toUpperCase(string.charAt(i)) : Character.toLowerCase(string.charAt(i));
+        }
+        System.out.println(answer);
+    }
 }

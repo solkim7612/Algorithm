@@ -1,32 +1,19 @@
 package Lv1;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 public class Solution2 {
-    public int[] solution(int num, int total) {
-//        int[] answer=new int[num];
-//        int start=(total - (num*(num-1)/2))/num;
-//
-//        for(int i=0; i<num; i++){
-//            answer[i]=start++;
-//        }
-//
-//        return answer;
+    public String solution(String my_string, String overwrite_string, int s) {
+        String answer = my_string.substring(0, s) + overwrite_string + my_string.substring(s + overwrite_string.length());
 
-        // Stream API
-        int start = (total - (num * (num - 1) / 2)) / num;
-
-        return IntStream.range(0, num)
-                .map(i -> start + i)
-                .toArray();
+        return answer;
     }
 
     public static void main(String[] args) {
         Solution2 solution2 = new Solution2();
-        int num = 3;
-        int total = 12;
 
-        System.out.println(Arrays.toString(solution2.solution(num, total)));
+        String my_string = "He11oWor1d";
+        String overwrite_string = "lloWorl";
+        int s = 2;
+
+        System.out.println(solution2.solution(my_string, overwrite_string, s));
     }
 }
