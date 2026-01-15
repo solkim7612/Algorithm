@@ -15,6 +15,10 @@
 |  1  | 대소문자 바꿔서 출력하기 | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181949) |   [Code](./src/Lv1/Solution1.java)    | 2026-01-14 |  ✅ 완료  |
 |  2  |   문자열 겹쳐쓰기    | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181943) |   [Code](./src/Lv1/Solution2.java)    | 2026-01-14 |  ✅ 완료  | 
 |  3  |    코드 처리하기    | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181932) |   [Code](./src/Lv1/Solution3.java)    | 2026-01-14 |  ✅ 완료  |
+|  4  |   주사위 게임 2    | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181930) |   [Code](./src/Lv1/Solution4.java)    | 2026-01-15 |  ✅ 완료  |
+|  5  |    이어 붙인 수    | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181928) |   [Code](./src/Lv1/Solution5.java)    | 2026-01-15 |  ✅ 완료  |
+|  6  |  수열과 구간 쿼리 3  | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181924) |   [Code](./src/Lv1/Solution6.java)    | 2026-01-15 |  ✅ 완료  |
+|  7  |  수열과 구간 쿼리 2  | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181923) |   [Code](./src/Lv1/Solution7.java)    | 2026-01-15 |  ✅ 완료  |
 |  n  |      ...      | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181949) | [Code](./src/Beginner/Solution1.java) | 2025-01-12 | 🔄 진행중 | 
 
 
