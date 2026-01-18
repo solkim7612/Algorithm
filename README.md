@@ -19,6 +19,8 @@
 |  5  |    이어 붙인 수    | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181928) |   [Code](./src/Lv1/Solution5.java)    | 2026-01-15 |  ✅ 완료  |
 |  6  |  수열과 구간 쿼리 3  | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181924) |   [Code](./src/Lv1/Solution6.java)    | 2026-01-15 |  ✅ 완료  |
 |  7  |  수열과 구간 쿼리 2  | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181923) |   [Code](./src/Lv1/Solution7.java)    | 2026-01-15 |  ✅ 완료  |
+|  8  |  수열과 구간 쿼리 2  | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181923) |   [Code](./src/Lv1/Solution8.java)    | 2026-01-00 |  🔄 진행중 |
+|  7  |    조건 문자열     | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181934) |   [Code](./src/Lv1/Solution9.java)    | 2026-01-18 |  ✅ 완료  |
 |  n  |      ...      | [Link](https://school.programmers.co.kr/learn/courses/30/lessons/181949) | [Code](./src/Beginner/Solution1.java) | 2025-01-12 | 🔄 진행중 | 
 
 
